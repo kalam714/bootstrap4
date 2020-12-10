@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+ 
+<div class="container">
+    <div class="jumbotron">
+        <div class="btn-group">
+            <button type="button" class="btn btn-success">Left</button>
+            <button type="button" class="btn btn-success">Middle</button>
+            <button type="button" class="btn btn-success">Right</button>
+          </div>
+    </div>
+          <div class="jumbotron">
+              <h2>Button Nesting</h2>
+            <div class="btn-group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-success">1</button>
+                <button type="button" class="btn btn-success">2</button>
+              
+                <div class="btn-group" role="group">
+                  <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </button>
+                  <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                    <a class="dropdown-item" href="#">Dropdown link</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+
+
+
+</div>
+
+</body>
+</html>
